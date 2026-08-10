@@ -1,0 +1,19 @@
+{
+  "name": "paqathon-skills",
+  "description": "PAQathon agent skills.",
+  "owner": {
+    "name": "blockful",
+    "email": "shared@blockful.io"
+  },
+  "plugins": [
+    {
+      "name": "paqathon",
+      "source": "./",
+      "description": "PAQathon skills.",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/me-grelha"
+      ]
+    }
+  ]
+}
