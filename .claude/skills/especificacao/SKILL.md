@@ -12,8 +12,6 @@ DECISÕES JÁ FECHADAS (saída da entrevista, PRD, fluxo, features):
 [COLE AQUI]
 ```
 
-Se o bloco acima vier vazio, peça as decisões antes de escrever. Use só o que estiver colado aqui.
-
 ## Tarefa
 
 Sem perguntas novas — é síntese. Escreva a especificação em markdown, no máximo uma página. Se não cabe em uma página, ainda tem decisão em aberto.
