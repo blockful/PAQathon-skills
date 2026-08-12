@@ -12,7 +12,12 @@
       "description": "PAQathon skills.",
       "strict": false,
       "skills": [
-        "./.claude/skills/me-grelha"
+        "./.claude/skills/entrevista",
+        "./.claude/skills/especificacao",
+        "./.claude/skills/quebrar-tarefas",
+        "./.claude/skills/construir-tarefa",
+        "./.claude/skills/quando-quebra",
+        "./.claude/skills/melhorar-interface"
       ]
     }
   ]

@@ -6,7 +6,12 @@ Agent skills ([`SKILL.md`](https://agentskills.io) open format) para Claude Code
 
 | Skill | O que faz |
 |---|---|
-| [`me-grelha`](.claude/skills/me-grelha/SKILL.md) | Transforma uma ideia vaga em spec através de rodadas de perguntas. |
+| [`entrevista`](.claude/skills/entrevista/SKILL.md) | 1 · A IA te entrevista sobre o PRD/fluxo até não sobrar dúvida. |
+| [`especificacao`](.claude/skills/especificacao/SKILL.md) | 2 · Fecha tudo que foi decidido numa especificação de uma página. |
+| [`quebrar-tarefas`](.claude/skills/quebrar-tarefas/SKILL.md) | 3 · Fatia a especificação em tarefas ordenadas, uma por pedido. |
+| [`construir-tarefa`](.claude/skills/construir-tarefa/SKILL.md) | 4 · Monta o texto para colar no Lovable, uma tarefa por vez. |
+| [`quando-quebra`](.claude/skills/quando-quebra/SKILL.md) | 5 · Reproduz o erro e entrega o conserto pronto pra colar. |
+| [`melhorar-interface`](.claude/skills/melhorar-interface/SKILL.md) | 6 · Ajusta o visual de uma tela sem mexer no resto + checklist. |
 
 ## Instalar
 
@@ -22,7 +27,7 @@ Instala tudo globalmente para Claude Code + Codex. Outro agente? Adicione (ex.: 
 
 ```bash
 npx skills@1.5.10 add blockful/PAQathon-skills             # escolhe interativamente
-npx skills@1.5.10 add blockful/PAQathon-skills@me-grelha   # instala uma só
+npx skills@1.5.10 add blockful/PAQathon-skills@entrevista  # instala uma só
 npx skills@1.5.10 add blockful/PAQathon-skills --list      # lista disponíveis
 npx skills@1.5.10 list -g                                  # lista instaladas
 ```
