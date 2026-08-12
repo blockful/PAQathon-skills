@@ -14,8 +14,6 @@ ESPECIFICAÇÃO:
 [COLE AQUI]
 ```
 
-Se o bloco acima vier vazio, peça a especificação antes de fatiar. Use só o que estiver colado aqui.
-
 ## Tarefa
 
 Quebre a especificação em tarefas para o usuário pedir ao Lovable, uma por vez.
