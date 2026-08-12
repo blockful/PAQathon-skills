@@ -17,8 +17,6 @@ O QUE APARECEU NA TELA:
 [DESCREVA AQUI]
 ```
 
-Peça o que faltar antes de sugerir qualquer conserto. Use só o que estiver colado aqui.
-
 ## Tarefa
 
 1. Antes de sugerir conserto, estabeleça: como fazer esse problema acontecer de novo, de propósito? Quais passos exatos? Pergunte o que precisar para chegar lá.
