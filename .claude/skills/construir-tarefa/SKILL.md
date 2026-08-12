@@ -7,31 +7,46 @@ description: Monta o texto para colar no Lovable — a primeira mensagem com esp
 
 A primeira mensagem carrega o contexto inteiro. As seguintes são curtas — uma tarefa cada.
 
-Monte o texto para o usuário colar no Lovable:
+## Entrada
+
+```
+ESPECIFICAÇÃO:
+[COLE AQUI]
+
+IDENTIDADE VISUAL / DESIGN.md:
+[COLE AQUI]
+
+TAREFA A CONSTRUIR AGORA:
+[COLE AQUI]
+
+É a primeira mensagem no Lovable? [sim/não]
+```
+
+Peça o que faltar antes de montar. Use só o que estiver colado aqui.
+
+## Tarefa
+
+**Se é a primeira mensagem**, monte assim:
 
 ```
 Vou te passar a especificação completa do projeto e a identidade
 visual. Leia tudo antes de construir.
 
 [ESPECIFICAÇÃO]
-[DESIGN.md OU IDENTIDADE VISUAL]
+[IDENTIDADE VISUAL]
 
 Nesta primeira etapa, construa APENAS isto:
 
-[TAREFA 1]
+[TAREFA]
 
 Não implemente as outras partes ainda. Se algo estiver ambíguo para
 esta tarefa, me pergunte antes de decidir sozinho.
 ```
 
-Se faltar a especificação, a identidade visual ou a tarefa, peça antes de montar.
+**Se não é a primeira**, a mensagem é só: `Agora a tarefa N: [TAREFA]`.
 
-Da tarefa 2 em diante a mensagem é só: `Agora a tarefa 2: [tarefa]`.
-
-Regras:
+## Regras
 - Antes de passar pra próxima, abra a tela e confira o item "como testo" da tarefa atual.
 - Não acumule — duas tarefas quebradas ao mesmo tempo custam o triplo pra achar.
 - Pedido pequeno vence pedido grande. Nunca "refaz tudo": aponte tela + elemento + comportamento.
 - Travou duas vezes no mesmo erro? Volte um passo e melhore a especificação (`quando-quebra`).
-
-Antes: `quebrar-tarefas`.
