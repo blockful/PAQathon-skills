@@ -20,8 +20,6 @@ IDENTIDADE VISUAL / DESIGN.md:
 [COLE AQUI]
 ```
 
-Peça o que faltar antes de montar. Use só o que estiver colado aqui.
-
 ## Tarefa
 
 Monte o texto para o usuário colar no Lovable:
