@@ -12,8 +12,6 @@ PRD, FLUXO DE TELAS E FEATURES DE CADA UMA:
 [COLE AQUI]
 ```
 
-Se o bloco acima vier vazio, peça o PRD/fluxo/features antes de começar. Não use nada de conversas anteriores — só o que estiver colado aqui.
-
 ## Tarefa
 
 Achar o que ficou em aberto no que o usuário já decidiu — não elogiar e não construir nada.
