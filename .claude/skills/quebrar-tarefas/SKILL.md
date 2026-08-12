@@ -7,6 +7,15 @@ description: Quebra uma especificação em tarefas pequenas e ordenadas, cada um
 
 O Lovable erra menos quando recebe um pedaço por vez.
 
+## Entrada
+
+```
+ESPECIFICAÇÃO:
+[COLE AQUI]
+```
+
+## Tarefa
+
 Quebre a especificação em tarefas para o usuário pedir ao Lovable, uma por vez.
 
 Cada tarefa precisa:
@@ -16,4 +25,6 @@ Cada tarefa precisa:
 
 Coloque na ordem em que devem ser pedidas. No final, diga quais tarefas não dependem de nada e poderiam ser feitas a qualquer momento.
 
-Antes: `especificacao`. Depois: `construir-tarefa`.
+## Saída
+
+A lista ordenada de tarefas, cada uma pronta pra colar em `construir-tarefa`.

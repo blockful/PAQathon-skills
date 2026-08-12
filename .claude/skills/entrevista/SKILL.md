@@ -5,7 +5,16 @@ description: Entrevista o usuário sobre um PRD/fluxo/wireframe já pronto para 
 
 # 1 · A IA te entrevista
 
-Tarefa: achar o que ficou em aberto no que o usuário já decidiu — não elogiar e não construir nada.
+## Entrada
+
+```
+PRD, FLUXO DE TELAS E FEATURES DE CADA UMA:
+[COLE AQUI]
+```
+
+## Tarefa
+
+Achar o que ficou em aberto no que o usuário já decidiu — não elogiar e não construir nada.
 
 Regras, e elas são rígidas:
 - Faça UMA pergunta por vez e espere a resposta.
@@ -14,6 +23,6 @@ Regras, e elas são rígidas:
 - Sempre que a pergunta tiver alternativas, liste as opções e diga qual você recomenda e por quê. Se o usuário não tiver opinião, siga com a sua.
 - Quando não sobrar dúvida, liste as decisões que ficaram fechadas.
 
-Se o usuário ainda não colou o PRD, o fluxo de telas e as features de cada uma, peça antes de começar.
+## Saída
 
-Depois: `especificacao`.
+A lista de decisões fechadas, em texto que dá pra copiar e colar na próxima etapa (`especificacao`).

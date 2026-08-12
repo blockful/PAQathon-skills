@@ -5,20 +5,35 @@ description: Monta o pedido para ajustar o visual de UMA tela no Lovable sem mud
 
 # 6 · Melhorar interface
 
-Ajuste de visual de uma tela sem quebrar o resto. Monte o texto para colar no Lovable:
+Ajuste de visual de uma tela sem quebrar o resto.
+
+## Entrada
+
+```
+TELA:
+[NOME DA TELA]
+
+O QUE INCOMODA, EM TERMOS DE COMPORTAMENTO:
+[DESCREVA AQUI]
+
+IDENTIDADE VISUAL / DESIGN.md:
+[COLE AQUI]
+```
+
+## Tarefa
+
+Monte o texto para o usuário colar no Lovable:
 
 ```
 Quero ajustar o visual de UMA tela, sem mudar comportamento nem
 mexer em nenhuma outra tela.
 
-Tela: [NOME DA TELA]
-O que incomoda, em termos de comportamento: [DESCREVA]
-Identidade visual a seguir: [DESIGN.md]
+Tela: [TELA]
+O que incomoda, em termos de comportamento: [O QUE INCOMODA]
+Identidade visual a seguir: [IDENTIDADE VISUAL]
 
 Não altere nenhuma outra tela nem nenhum outro fluxo.
 ```
-
-Peça o que faltar (tela, incômodo, identidade visual) antes de montar.
 
 ## Checklist antes de apresentar
 - Botão principal óbvio em toda tela.
